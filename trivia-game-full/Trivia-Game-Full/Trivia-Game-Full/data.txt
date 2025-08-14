@@ -1,0 +1,597 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What is the name of the Boeing B-29 that dropped the &#039;Little Boy&#039; atomic bomb on Hiroshima?",
+      "correct_answer": "Enola Gay",
+      "incorrect_answers": [
+        "Necessary Evil",
+        "The Great Artiste",
+        "Full House"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Electronic music producer Kygo&#039;s popularity skyrocketed after a certain remix. Which song did he remix?",
+      "correct_answer": "Ed Sheeran - I See Fire",
+      "incorrect_answers": [
+        "Marvin Gaye - Sexual Healing",
+        "Coldplay - Midnight",
+        "a-ha - Take On Me"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Comics",
+      "question": "The stuffed tiger in Calvin and Hobbes is named after what philosopher?",
+      "correct_answer": "Thomas Hobbes",
+      "incorrect_answers": [
+        "David Hobbes",
+        "John Hobbes",
+        "Nathaniel Hobbes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What&#039;s the Team Fortress 2 Scout&#039;s city of origin?",
+      "correct_answer": "Boston",
+      "incorrect_answers": [
+        "Sydney",
+        "Detroit",
+        "New York"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "There are a total of 20 races in Formula One 2016 season.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year did Texas secede from Mexico?",
+      "correct_answer": "1836",
+      "incorrect_answers": [
+        "1838",
+        "1845",
+        "1844"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In which Mario game did the Mega Mushroom make its debut?",
+      "correct_answer": "Mario Party 4",
+      "incorrect_answers": [
+        "New Super Mario Bros.",
+        "Mario Kart Wii",
+        "Super Mario 3D World"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What alcoholic drink is made from molasses?",
+      "correct_answer": "Rum",
+      "incorrect_answers": [
+        "Gin",
+        "Vodka",
+        "Whisky"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What animation studio produced &quot;Gurren Lagann&quot;?",
+      "correct_answer": "Gainax",
+      "incorrect_answers": [
+        "Kyoto Animation",
+        "Pierrot",
+        "A-1 Pictures"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What organelle aids in synthesis of DNA in cells?",
+      "correct_answer": "Ribosomes",
+      "incorrect_answers": [
+        "Nuclei",
+        "Lysosomes",
+        "Mitochondria"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In &quot;Little Women&quot;, which of the March sisters married Laurie?",
+      "correct_answer": "Amy",
+      "incorrect_answers": [
+        "Beth",
+        "Jo",
+        "Meg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "In which film does Humphrey Bogart say the famous line, &quot;Here&#039;s looking at you, kid&quot;?",
+      "correct_answer": "Casablanca",
+      "incorrect_answers": [
+        "The Maltese Falcon",
+        "The Treasure of the Sierra Madre",
+        "Citizen Kane"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Who created &quot;RWBY&quot;?",
+      "correct_answer": "Monty Oum",
+      "incorrect_answers": [
+        "Miles Luna",
+        "Kerry Shawcross",
+        "Shane Newville"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is not a character in the video game Doki Doki Literature Club?",
+      "correct_answer": "Nico",
+      "incorrect_answers": [
+        "Monika",
+        "Natsuki",
+        "Sayori"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the &quot;Flash&quot; and &quot;Arrow&quot; spinoff featuring a team of characters that have appeared on both shows?",
+      "correct_answer": "Legends of Tomorrow",
+      "incorrect_answers": [
+        "Heroes of Tomorrow",
+        "The Justice Society of America",
+        "The Justice Society"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "The C programming language was created by this American computer scientist. ",
+      "correct_answer": "Dennis Ritchie",
+      "incorrect_answers": [
+        "Tim Berners Lee",
+        "al-Khwārizmī",
+        "Willis Ware"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The original Planetside was released in North America on...",
+      "correct_answer": "May 20, 2003",
+      "incorrect_answers": [
+        "June 17, 2001",
+        "September 29, 2003",
+        "January 14, 2005"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which artist curated the official soundtrack for &quot;The Hunger Games: Mockingjay - Part 1&quot;?",
+      "correct_answer": "Lorde",
+      "incorrect_answers": [
+        "Kanye West",
+        "Tove Lo",
+        "Charli XCX"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In TF2 Lore, what are the names of the Heavy&#039;s younger sisters?",
+      "correct_answer": "Yana and Bronislava",
+      "incorrect_answers": [
+        "Gaba and Anna",
+        "Yanna and Gaba",
+        "Anna and Bronislava"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the planet that the Doctor from television series &quot;Doctor Who&quot; comes from?",
+      "correct_answer": "Gallifrey",
+      "incorrect_answers": [
+        "Sontar",
+        "Skaro",
+        "Mondas"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "One of the early prototypes of the Sega Dreamcast controller resembled which of the following?",
+      "correct_answer": "Television Remote",
+      "incorrect_answers": [
+        "Tablet",
+        "Hairdryer",
+        "Flip Phone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "Which virtual assistant is developed by Amazon?",
+      "correct_answer": "Alexa",
+      "incorrect_answers": [
+        "Google Assistant",
+        "Siri",
+        "Cortana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the capital of Estonia?",
+      "correct_answer": "Tallinn",
+      "incorrect_answers": [
+        "Helsinki",
+        "Tartu",
+        "Riga"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What was the name of the chemical that was dropped on Vietnam during the Vietnam war?",
+      "correct_answer": "Agent Orange",
+      "incorrect_answers": [
+        "Phosgene",
+        "Mustard Gas",
+        "Hydrogen Cyanide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of Pearl Jam?",
+      "correct_answer": "Eddie Vedder",
+      "incorrect_answers": [
+        "Ozzy Osbourne",
+        "Stone Gossard",
+        "Kurt Cobain"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": " Which of these champions from the MOBA &#039;League of Legends&#039; is NOT a Yordle?",
+      "correct_answer": "Annie",
+      "incorrect_answers": [
+        "Veigar",
+        "Tristana",
+        "Lulu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "What is the largest city and commercial capital of Sri Lanka?",
+      "correct_answer": "Colombo",
+      "incorrect_answers": [
+        "Moratuwa",
+        "Negombo",
+        "Kandy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "What was the last message of the Dolphins in &quot;The Hitchhiker&#039;s Guide to the Galaxy&quot;?",
+      "correct_answer": "&quot;So long, and thanks for all the fish.&quot;",
+      "incorrect_answers": [
+        "&quot;The answer is 42.&quot;",
+        "&quot;Land of the brave.&quot;",
+        "&quot;Goodbye cruel world!&quot;"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Japan was part of the Allied Powers during World War I.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "What is the British term for a 64th note?",
+      "correct_answer": "Hemidemisemiquaver",
+      "incorrect_answers": [
+        "Semihemidemisemiquaver",
+        "Semiquaver",
+        "Demisemiquaver"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Which cartoon family lives in 31 Spooner Street, Quahog, Rhode Island USA?",
+      "correct_answer": "The Griffins",
+      "incorrect_answers": [
+        "The Simpsons",
+        "The Jetsons",
+        "The Hills"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The color orange is named after the fruit.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Who designed the Chupa Chups logo?",
+      "correct_answer": "Salvador Dali",
+      "incorrect_answers": [
+        "Pablo Picasso",
+        "Andy Warhol",
+        "Vincent van Gogh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Final Fantasy game consisted of a female-only cast of party members?",
+      "correct_answer": "Final Fantasy X-2",
+      "incorrect_answers": [
+        "Final Fantasy IX",
+        "Final Fantasy V",
+        "Final Fantasy XIII-2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "On the NBC show Community what was Star Burns&#039; real name?",
+      "correct_answer": "Alex",
+      "incorrect_answers": [
+        "Todd",
+        "Neal",
+        "Grimus"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Geography",
+      "question": "Which of these is NOT a province in China?",
+      "correct_answer": "Yangtze",
+      "incorrect_answers": [
+        "Fujian",
+        "Sichuan",
+        "Guangdong"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Mythology",
+      "question": "In the Greek Mythology, the god of war is called Mars.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "The Neanderthals were a direct ancestor of modern humans.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which country does the electronic music duo &quot;The Knife&quot; originate from?",
+      "correct_answer": "Sweden",
+      "incorrect_answers": [
+        "Finland",
+        "Denmark",
+        "Norway"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "The tuba is a part of which musical family?",
+      "correct_answer": "Brass",
+      "incorrect_answers": [
+        "Percussion",
+        "Strings",
+        "Woodwind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the name of the peninsula containing Spain and Portugal?",
+      "correct_answer": "Iberian Peninsula",
+      "incorrect_answers": [
+        "European Peninsula",
+        "Peloponnesian Peninsula",
+        "Scandinavian Peninsula"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is a type of monster found in Minecraft?",
+      "correct_answer": "Skeleton",
+      "incorrect_answers": [
+        "Werewolf",
+        "Vampire",
+        "Minotaur"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following Terran units from the RTS game Starcraft was first introduced in the expansion Brood War?",
+      "correct_answer": "Medic",
+      "incorrect_answers": [
+        "Wraith",
+        "Science Vessel",
+        "SCV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who&#039;s the voice actor for Thrall in the Warcraft game series?",
+      "correct_answer": "Chris Metzen",
+      "incorrect_answers": [
+        "Ben Affleck",
+        "Jason Derulo",
+        "Jim Carrey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Board Games",
+      "question": "The board game &quot;Monopoly&quot; is a variation of what board game?",
+      "correct_answer": "The Landlord&#039;s Game",
+      "incorrect_answers": [
+        "Territorial Dispute",
+        "Property Feud",
+        "The Monopolist&#039;s Game"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Who is the creator of the manga series &quot;One Piece&quot;?",
+      "correct_answer": "Eiichiro Oda",
+      "incorrect_answers": [
+        "Yoshihiro Togashi",
+        "Hayao Miyazaki",
+        "Masashi Kishimoto"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Kingdom Hearts, how many members does Organization XIII have in total?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "10",
+        "13",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "When was Pong released?",
+      "correct_answer": "November 29, 1972",
+      "incorrect_answers": [
+        "March 29, 2017",
+        "November 29, 1970",
+        "December 14, 1974"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "Jaguar Cars was previously owned by which car manfacturer?",
+      "correct_answer": "Ford",
+      "incorrect_answers": [
+        "Chrysler",
+        "General Motors",
+        "Fiat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Which of these country&#039;s capitals starts with the letter B?",
+      "correct_answer": "Lebanon",
+      "incorrect_answers": [
+        "Jordan",
+        "Kuwait",
+        "Qatar"
+      ]
+    }
+  ]
+}
+
+
