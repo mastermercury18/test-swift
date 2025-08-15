@@ -10,6 +10,7 @@ import SwiftUI
 struct GameView: View {
     let settings: GameSettings
     @StateObject private var vm: GameViewModel
+    @State private var isAnimating = false
 
     init(settings: GameSettings) {
         self.settings = settings
@@ -18,9 +19,13 @@ struct GameView: View {
 
     var body: some View {
         ZStack {
-            LinearGradient(colors: [.indigo.opacity(0.6), .blue.opacity(0.6)],
-                           startPoint: .topLeading, endPoint: .bottomTrailing)
-                .ignoresSafeArea()
+            // Playful background gradient similar to HomeView
+            LinearGradient(
+                colors: [Color.orange.opacity(0.3), Color.yellow.opacity(0.2)],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+            .ignoresSafeArea()
 
             if vm.isGameOver {
                 ResultsView(score: vm.score,
@@ -41,35 +46,48 @@ struct GameView: View {
                 vm.startGame()
             }
         }
+        .onAppear { isAnimating = true }
     }
 
     private var content: some View {
-        VStack(spacing: 16) {
-            // Header (score, lives, progress)
+        VStack(spacing: 24) {
+            // Header (score, lives, progress) with updated styling
             HStack {
-                Text("Score: \(vm.score)").font(.headline)
+                Text("Score: \(vm.score)")
+                    .font(.system(size: 24, weight: .bold, design: .rounded))
+                    .foregroundColor(.orange)
                 Spacer()
                 LivesView(lives: vm.lives)
             }
+            .padding()
+            .background(Color.white.opacity(0.7))
+            .cornerRadius(10)
 
             HStack {
                 Text("Q \(vm.index + 1)/\(vm.totalQuestions)")
-                    .font(.subheadline).foregroundColor(.secondary)
+                    .font(.system(size: 18, weight: .bold, design: .rounded))
+                    .foregroundColor(.orange)
                 Spacer()
                 if let limit = settings.mode.timePerQuestion {
                     TimeBar(remaining: vm.timeRemaining, total: limit)
                         .frame(width: 140)
                 }
             }
+            .padding()
+            .background(Color.white.opacity(0.7))
+            .cornerRadius(10)
 
-            // Question
+            // Question with updated styling
             if let q = vm.currentQuestion {
                 Text(q.text)
-                    .font(.title2.bold())
+                    .font(.system(size: 24, weight: .bold, design: .rounded))
                     .multilineTextAlignment(.center)
-                    .padding(.top, 8)
+                    .padding()
+                    .background(Color.white.opacity(0.7))
+                    .cornerRadius(10)
+                    .foregroundColor(.orange)
 
-                // Options
+                // Options with updated styling
                 VStack(spacing: 12) {
                     ForEach(Array(q.options.enumerated()), id: \.offset) { _, option in
                         Button {
@@ -86,20 +104,32 @@ struct GameView: View {
 
                 if vm.hasAnswered {
                     Button("Next") { vm.nextQuestion() }
-                        .font(.headline)
+                        .font(.system(size: 20, weight: .bold, design: .rounded))
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color.white.opacity(0.2))
-                        .overlay(RoundedRectangle(cornerRadius: 12).stroke(Color.white.opacity(0.6)))
-                        .cornerRadius(12)
-                        .padding(.top, 6)
+                        .background(
+                            LinearGradient(
+                                colors: [.orange, .red.opacity(0.8)],
+                                startPoint: .leading,
+                                endPoint: .trailing
+                            )
+                        )
+                        .foregroundColor(.white)
+                        .cornerRadius(25)
+                        .shadow(color: .orange.opacity(0.5), radius: 10, x: 0, y: 5)
+                        .scaleEffect(isAnimating ? 1.05 : 1.0)
+                        .animation(Animation.easeInOut(duration: 1.0).repeatForever(autoreverses: true), value: isAnimating)
                 }
             } else {
-                Text("Loading…").padding()
+                Text("Loading…")
+                    .font(.system(size: 18, design: .rounded))
+                    .padding()
+                    .background(Color.white.opacity(0.7))
+                    .cornerRadius(10)
+                    .foregroundColor(.orange)
             }
             Spacer()
         }
-        .foregroundColor(.white)
     }
 
     private func rowState(for option: String, correct: String) -> AnswerRow.State {
@@ -116,9 +146,11 @@ struct LivesView: View {
     let lives: Int
     var body: some View {
         HStack(spacing: 6) {
-            ForEach(0..<max(lives, 0), id: \.self) { _ in Text("❤️") }
+            ForEach(0..<max(lives, 0), id: \.self) { _ in 
+                Text("❤️")
+                    .font(.title3)
+            }
         }
-        .font(.title3)
         .accessibilityLabel("\(lives) lives")
     }
 }
@@ -133,7 +165,8 @@ struct TimeBar: View {
             .overlay(
                 Text("\(remaining)s")
                     .font(.caption2)
-                    .foregroundColor(.white)
+                    .foregroundColor(.orange)
+                    .fontWeight(.bold)
             )
     }
 }
@@ -149,17 +182,30 @@ struct AnswerRow: View {
             .padding()
             .frame(maxWidth: .infinity)
             .background(background)
-            .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(Color.white.opacity(0.25)))
             .cornerRadius(12)
+            .foregroundColor(foregroundColor)
     }
+    
     private var background: some View {
         Group {
             switch state {
-            case .neutral: Color.white.opacity(0.15)
-            case .correct: Color.green.opacity(0.55)
-            case .wrong:   Color.red.opacity(0.55)
-            case .dimmed:  Color.white.opacity(0.07)
+            case .neutral: 
+                LinearGradient(
+                    colors: [Color.orange.opacity(0.3), Color.yellow.opacity(0.2)],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            case .correct: Color.green.opacity(0.7)
+            case .wrong:   Color.red.opacity(0.7)
+            case .dimmed:  Color.white.opacity(0.3)
             }
+        }
+    }
+    
+    private var foregroundColor: Color {
+        switch state {
+        case .neutral, .dimmed: return .orange
+        case .correct, .wrong: return .white
         }
     }
 }
